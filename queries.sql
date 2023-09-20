@@ -31,6 +31,9 @@ UPDATE animals SET species = 'unspecified';
 SELECT * FROM animals WHERE species = 'unspecified';
 ROLLBACK;
 
+-- Verify that the changes have been properly rolled back
+SELECT * FROM animals;
+
 -- Update 'species' based on conditions and commit changes
 BEGIN;
 UPDATE animals SET species = 'digimon' WHERE name LIKE '%mon';
@@ -43,6 +46,9 @@ BEGIN;
 DELETE FROM animals;
 SELECT * FROM animals;
 ROLLBACK;
+
+-- Verify that the records have been properly rolled back
+SELECT * FROM animals;
 
 
 -- Update weights and commit changes
