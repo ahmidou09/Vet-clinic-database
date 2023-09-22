@@ -197,3 +197,15 @@ JOIN animals a ON v.animal_id = a.id
 JOIN vets vt ON v.vet_id = vt.id
 LEFT JOIN specializations sp ON vt.id = sp.vet_id AND a.species_id = sp.species_id
 WHERE sp.vet_id IS NULL;
+
+-- What specialty should Maisy Smith consider getting? Look for the species she gets the most.
+
+SELECT s.name AS specialty, COUNT(*) AS total_visits
+FROM visits v
+JOIN vets vt ON v.vet_id = vt.id
+JOIN specializations sp ON vt.id = sp.vet_id
+JOIN species s ON sp.species_id = s.id
+WHERE vt.name = 'Maisy Smith'
+GROUP BY s.name
+ORDER BY total_visits DESC
+LIMIT 1;
