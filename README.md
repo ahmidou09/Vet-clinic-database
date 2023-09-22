@@ -68,7 +68,7 @@ In the project directory, run/ Excute each query in the following order:
   Excute schema.sql
   Excute data.sql
   Excute queries.sql
-
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
