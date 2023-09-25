@@ -7,10 +7,7 @@
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
+  - [Setup](#setup)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -48,33 +45,30 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
+You have to have tools like: 
+
+- PostgreSQL
+
 ### Setup
 
 Clone this repository to your desired folder:
 
-```
+```sh
 git clone https://github.com/ahmidou09/Vet-clinic-database.git
-cd Vet-clinic-database
-code . (To open VS Code Editor)
+```
+Go to the project directory.
+
+```bash
+  cd vet-clinic-database
 ```
 
-Then, you will change everything you want!
+In the project directory, run/ Excute each query in the following order:
 
-### Install
-
-Install this project with:
-
-### Usage
-
-To run the project, execute the following command:
-
-### Run tests
-
-To run tests, run the following command:
-
-### Deployment
-
-You can deploy this project using:
+```bash
+  Excute schema.sql
+  Excute data.sql
+  Excute queries.sql
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
