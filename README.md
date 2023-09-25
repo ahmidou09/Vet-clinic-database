@@ -80,6 +80,11 @@ In the project directory, run/ Excute each query in the following order:
 - Twitter: [@el_ahmidou](https://twitter.com/el_ahmidou)
 - LinkedIn: [el mehdi ahmidou](https://www.linkedin.com/in/el-mehdi-ahmidou-312590125/)
 
+👤 **Javier Jesús Martinez Fariñas**
+
+- GitHub: [@jlcarrascof](https://github.com/jlcarrascof)
+- Twitter: [@javiersistemas](https://twitter.com/javiersistemas)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
