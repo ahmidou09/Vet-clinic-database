@@ -73,3 +73,7 @@ CREATE TABLE visits (
     FOREIGN KEY (animal_id) REFERENCES animals(id),
     FOREIGN KEY (vet_id) REFERENCES vets(id)
 );
+
+/* modify NOT NULL ON age column on owners table */
+
+ALTER TABLE owners ALTER COLUMN age DROP NOT NULL;
