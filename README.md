@@ -19,6 +19,8 @@
 
 **Vet clinic database** This is a database schema designed for managing information from a Veterinary Clinic. It enables us to retrieve details about various animals along with their specific attributes. Developed using PostgreSQL.
 
+![Database Schema](./Clinic_Schema.png)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
